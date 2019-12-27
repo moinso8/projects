@@ -25,7 +25,7 @@ def save_to_file(price_stamp):
 	file.write("{} {}\n".format(time.strftime("%d.%m %Y", ts),price_stamp))
 
 coin = input("What coin are you interested in? ")
-print("")
+print("MEZERA")
 user_input = input("Would you like to show the price or save it into a file? ")
 
 if user_input == "show":
